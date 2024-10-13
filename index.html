@@ -59,8 +59,13 @@ Author: Aaron Nech
 			<div id="question-box">
 				<span class="big-text">Q:</span>
 				<span class="content" data-bind="html: getQuestionText()"></span>
-				<div class="hint"></div>
 			</div>
+			<div id="hintModal" class="modal">
+				<div class="modal-content">
+				  <span class="close">&times;</span>
+				  <p class="hint"></p>
+				</div>
+			  </div>			  
 			<div id="answer-box">
 				<div id="answer-one" class="answer" data-bind="click: function() { answerQuestion(0, $element.id) }">
 					<span class="big-text">A.</span><span data-bind="html: getAnswerText(0)"></span>

@@ -27,7 +27,7 @@
 					"hint" : "Multiply the fuel efficiency by the capacity of the new tank to get the answer."
 		        },
 		        {
-		            "question" : "A submarine is traveling from Point X to Point Y, which are 300 km apart. The submarine's speed varies depending on its depth. When the submarine is near the surface ie. 0-100 metres deep, it travels at a speed of 40 km/h. When the submarine dives to a depth between 100 and 300 meters, its speed decreases linearly with depth according to the function v (d) = (40 - 0.1 x (d - 100)) km/h, where d is the depth in meters. The submarine dives to a depth of 250 meters and travels 200 km at that depth. In how much time will the submarine reach point Y? (moderate)",
+		            "question" : "A submarine is traveling from Point X to Point Y, which are 300 km apart. The submarine's speed varies depending on its depth. When the submarine is near the surface ie. 0-100 metres deep, it travels at a speed of 40 km/h. When the submarine dives to a depth between 100 and 300 meters, its speed decreases linearly with depth according to the function v (d) = (40 - 0.1 &times; (d - 100)) km/h, where d is the depth in meters. The submarine dives to a depth of 250 meters and travels 200 km at that depth. In how much time will the submarine reach point Y? (moderate)",
 		            "content" : [
 		                "12 hours",
 		                "9 hours",
@@ -35,11 +35,11 @@
 		                "10.5 hours"
 		            ],
 		            "correct" : 3,
-					"timer" : 180,
+					"timer" : 420,
 					"hint" : "First, determine the speed of the submarine at the depth of 250 meters using the given function. Then, calculate the time taken to travel 200 km at that speed. After traveling 200 km at 250 meters depth, the submarine has 100 km left to reach Point Y.Calculate the time to travel the remaining 100 km at the surface speed of 40 km/h and then total time taken to reach Point Y"
 		        },
 		        {
-		            "question" : "You went to Aryabhata Canteen where you ordered 70ml of hot milk. You asked the staff to add a milk to water ratio of 5:3. But by mistake he added water to milk such that the ratio became 5:2. Help him find how many millilitres of water should be added to correct the ratio?",
+		            "question" : "You went to Aryabhatta Canteen where you ordered 70ml of hot milk. You asked the staff to add a milk to water ratio of 5:3. But by mistake he added water to milk such that the ratio became 5:2. Help him find how many millilitres of water should be added to correct the ratio?",
 		            "content" : [
 		                "10 ml",
 		                "5 ml",
@@ -47,7 +47,7 @@
 		                "20 ml"
 		            ],
 		            "correct" : 0,
-					"timer" : 180,
+					"timer" : 420,
 					"hint" : "To correct the milk-to-water ratio, follow these steps:\n1.Calculate the current amount of water based on the incorrect ratio.\n2.Set up an equation using the desired ratio and the current amount of milk and water.\n3.Solve for the amount of water to add."
 		        },
 		        {
@@ -55,11 +55,11 @@
 		            "content" : [
 		                "25 December 2025",
 		                "21 December 2025",
-		                "15 Janurat 2026",
+		                "15 Januray 2026",
 		                "31 December 2025"
 		            ],
 		            "correct" : 1,
-					"timer" : 300
+					"timer" : 600
 		        }
 		    ]
 		},
@@ -74,8 +74,8 @@
 		                "720"
 		            ],
 		            "correct" : 2,
-					"timer" : 120,
-					"hint" : "S<sub>n</sub> = n / 2 x (2a + (n - 1)d)"
+					"timer" : 180,
+					"hint" : "S<sub>n</sub> = n / 2 &times; (2a + (n - 1)d)"
 		        },
 		        {
 		            "question" : "Solve the differential equation dy/dx = 3x<sup>2</sup> given that y=2 when x=0.",
@@ -86,7 +86,7 @@
 		                "y = 2x<sup>3</sup> + 3"
 		            ],
 		            "correct" : 0,
-					"timer" : 120,
+					"timer" : 180,
 					"hint" : "To solve the differential equation, you need to integrate both sides. After finding the general solution, use the given condition y=2 when x=0 to find the constant of integration."
 		        },
 		        {
@@ -98,7 +98,7 @@
 		                "16"
 		            ],
 		            "correct" : 2,
-					"timer" : 120,
+					"timer" : 420,
 					"hint" : "Use the principle of inclusion-exclusion to find the number of people who liked only product C. Start by defining the sets and their intersections, then apply the formula to find the counts for each group."
 		        },
 		        {
@@ -110,7 +110,7 @@
 		                "4&radic;3 units"
 		            ],
 		            "correct" : 1,
-					"timer" : 120,
+					"timer" : 420,
 					"hint" : "To find the distance between the foci of the ellipse, use the formula for the distance between the foci, which involves the semi-major and semi-minor axes."
 		        },
 		        {
@@ -122,7 +122,7 @@
 		                "4620 grooves"
 		            ],
 		            "correct" : 3,
-					"timer" : 120
+					"timer" : 600
 		        }
 		    ]
 		},
@@ -137,8 +137,8 @@
 		                "66"
 		            ],
 		            "correct" : 2,
-					"timer" : 120,
-					"hint" : ""
+					"timer" : 180,
+					"hint" : "Break the question into separate integrals, apply the power rule, and evaluate each at the limits 1 and 3, then combine the results."
 		        },
 		        {
 		            "question" : "A server transmits data to a client at a constant rate of 50 MB per second. However, due to network congestion, the transmission rate is reduced by 25% for the first 5 minutes. Afterward, the rate returns to the normal 50 MB per second. How much data is transmitted in the first 5 minutes?",
@@ -149,19 +149,19 @@
 		                "12500 MB"
 		            ],
 		            "correct" : 1,
-					"timer" : 120,
+					"timer" : 180,
 					"hint" : "First, calculate the reduced transmission rate by reducing the normal rate by 25%. Then, find the amount of data transmitted at this reduced rate for the first 5 minutes by multiplying the reduced rate by the total time in seconds."
 		        },
 		        {
-		            "question" : "In Somaiya canteen, the price of milk at the rate of ₹5/l was first increased by 10%. But then a special discount was introduced for FY students and the price decreased by 30%. What is the net percentage change in final price? What is the final price to be paid if you buy 20 litres of milk?",
+		            "question" : "In Somaiya canteen, the price of milk at the rate of ₹5/L was first increased by 10%. But then a special discount was introduced for FY students and the price decreased by 30%. What is the net percentage change in final price? What is the final price to be paid if you buy 20 litres of milk?",
 		            "content" : [
-		                "90",
-		                "77",
-		                "87",
-		                "70"
+		                "15% decrease, Total price: ₹90",
+		                "23% decrease, Total price: ₹77",
+		                "18% decrease, Total price: ₹87",
+		                "26% decrease, Total price: ₹70"
 		            ],
 		            "correct" : 1,
-					"timer" : 120,
+					"timer" : 420,
 					"hint" : "New Price = Initial Price + (Initial Price x 10 / 100)\nNet Change = (Final Price - Initial Price) / Initial Price x 100"
 		        },
 		        {
@@ -173,7 +173,7 @@
 		                "6 km"
 		            ],
 		            "correct" : 0,
-					"timer" : 120,
+					"timer" : 420,
 					"hint" : "Calculate the difference btw t1 and t2"
 		        },
 		        {
@@ -185,7 +185,7 @@
 		                "475"
 		            ],
 		            "correct" : 3,
-					"timer" : 120
+					"timer" : 600
 				}
 		    ]
 		},
@@ -200,19 +200,19 @@
 		                "12 hours"
 		            ],
 		            "correct" : 3,
-					"timer" : 120,
+					"timer" : 180,
 					"hint" : "To solve this, think about how many trips the truck needs to make. The truck can carry only 1,000 kg per trip, so for camps that need more than 1,000 kg, multiple trips are required. Once you figure out the total number of trips, multiply that by the time per trip (2 hours)."
 		        },
 		        {
 		            "question" : "If coordinates of a point is given by (x<sup>2</sup> + y<sup>2</sup>, x + y)=(40, 7) then find the value of product of x and y.",
 		            "content" : [
 		                "4/5",
-		                "7/5",
-		                "9/5",
+		                "7/2",
+		                "9/2",
 		                "3/5"
 		            ],
 		            "correct" : 2,
-					"timer" : 120,
+					"timer" : 180,
 					"hint" : "You have two equations from the given point coordinates. Use substitution or elimination to solve for x and y. Once you find the values of x and y, compute their product."
 		        },
 		        {
@@ -224,7 +224,7 @@
 		                "5.4 hours"
 		            ],
 		            "correct" : 0,
-					"timer" : 120,
+					"timer" : 420,
 					"hint" : "To solve this problem, calculate the rates of filling and emptying the tank, then combine them to find the net rate when both pipes and the leak are working together."
 		        },
 		        {
@@ -236,7 +236,7 @@
 		                "99 people, 361 token"
 		            ],
 		            "correct" : 0,
-					"timer" : 120,
+					"timer" : 420,
 					"hint" : "To find the number of people in the line and your token number, first identify the pattern in the sequence of token numbers, which is an arithmetic sequence."
 		        },
 		        {
@@ -248,7 +248,7 @@
 		                "2 / 145"
 		            ],
 		            "correct" : 3,
-					"timer" : 120
+					"timer" : 600
 		        }
 		    ]
 		},
@@ -263,7 +263,7 @@
 		                "0.77"
 		            ],
 		            "correct" : 1,
-					"timer" : 120,
+					"timer" : 180,
 					"hint" : "P(A U B) = P(A) + P(B) - P(A ∩ B)"
 		        },
 		        {
@@ -275,7 +275,7 @@
 		                "4"
 		            ],
 		            "correct" : 0,
-					"timer" : 120,
+					"timer" : 180,
 					"hint" : "Find the derivative of f(x) then set it to 0 to find critical points. Evaluate the function at critical points and endpoints of interval to determine absolute maximum."
 		        },
 		        {
@@ -287,8 +287,8 @@
 		                "5"
 		            ],
 		            "correct" : 1,
-					"timer" : 120,
-					"hint" : "Number of relations = 2<sup>|A| x |B|</sup>"
+					"timer" : 420,
+					"hint" : "Number of relations = 2<sup>|A| &times; |B|</sup>"
 		        },
 		        {
 		            "question" : "Find Coordinate of the point whose abscissa is 0 from the equation of the straight line whose intercepts on x axis and y axis are thrice and twice of those by the line 4x + 3y = 12.",
@@ -299,8 +299,8 @@
 		                "8"
 		            ],
 		            "correct" : 3,
-					"timer" : 120,
-					"hint" : "Step 1: Determine the intercepts of the line 4x+3y=124x + 3y = 124x+3y=12\nStep 2: Determine the new intercepts\nStep 3: Write the equation of the new line\nStep 4: Find the coordinate where the abscissa is 0"
+					"timer" : 420,
+					"hint" : "Step 1: Determine the intercepts of the line 4x + 3y = 12\nStep 2: Determine the new intercepts\nStep 3: Write the equation of the new line\nStep 4: Find the coordinate where the abscissa is 0"
 		        },
 				{
 				    "correct": 1,
@@ -311,7 +311,7 @@
 				        "95 units, 6700 units"
 				    ],
 				    "question": "A group of students formed a start-up company which sells a tech gadget. The cost function of the gadget is C(x) = 40x + 3000 and the revenue function of the gadget is: R(x) = 70x. How many units need to be sold for the profit to equal the loss? Also find the number of units they'll have to sell to get a profit of ₹2,00,000. (Take the nearest approximate value)",
-					"timer" : 120
+					"timer" : 600
 				}
 		    ]
 		}

@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -11,11 +12,11 @@ html, body {
 }
 
 audio {
-	display: none;
+    display: none;
 }
 
 .clear {
-	clear: both;
+    clear: both;
 }
 
 #game {
@@ -29,41 +30,42 @@ audio {
 }
 
 #top {
-	display: flex;
-	width: 960px;
-	margin: 0 auto;
+    display: flex;
+    width: 960px;
+    margin: 0 auto;
 }
 
 #levels {
-	float: right;
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	color: white;
-	text-align: right;
-	margin-top: 40px;
-	font-size: 1.6em;
-	flex-grow: 1;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-evenly;
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: right;
+    margin-top: 40px;
+    font-size: 1.6em;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .active {
-	color: green;
-	font-weight: bold;
-	text-decoration: underline;
+    color: green;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 #options {
-	width: 960px;
-	height: 70px;
-	margin: 0 auto;
+    width: 960px;
+    height: 70px;
+    margin: 0 auto;
 }
 
 #question-box {
     background: #ddd;
-    width: 80%; /* Responsive width */
+    width: 80%;
+    /* Responsive width */
     margin: 0 auto;
     padding: 20px;
     font-size: 1.5em;
@@ -72,48 +74,48 @@ audio {
 }
 
 .big-text {
-	color: #FF7E00;
-	font-size: 2em;
-	margin-right: 15px;
+    color: #FF7E00;
+    font-size: 2em;
+    margin-right: 15px;
 }
 
 #money {
-	font-size: 1.9em;
-	font-weight: bold;
-	color: green;
-	float: right;
-	display: block;
-	height: 50px;
-	padding-top: 20px;
+    font-size: 1.9em;
+    font-weight: bold;
+    color: green;
+    float: right;
+    display: block;
+    height: 50px;
+    padding-top: 20px;
 }
 
 #logo {
-	width: 480px;
-	float: left;
-	margin-left: 240px;
-	margin-top: 60px;
+    width: 480px;
+    float: left;
+    margin-left: 240px;
+    margin-top: 60px;
 }
 
 #game-over {
-	display: none;
-	font-size: 7em;
-	font-weight: bold;
-	color: white;
-	width: 980px;
-	margin-top: 300px;
-	margin: 0 auto;
-	text-align: center;
+    display: none;
+    font-size: 7em;
+    font-weight: bold;
+    color: white;
+    width: 980px;
+    margin-top: 300px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 #fifty {
-	background: url('../img/50-50-removebg-preview.png') no-repeat 0 0;
+    background: url('../img/50-50-removebg-preview.png') no-repeat 0 0;
 }
 
-#hint{
+#hint {
     background: url('../img/Hint-removebg-preview.png') no-repeat 0 0;
 }
 
-#exit{
+#exit {
     background: url('../img/exit-removebg-preview.png') no-repeat 0 0;
 }
 
@@ -131,16 +133,21 @@ audio {
     font-weight: bold;
     color: white;
     text-align: center;
-    z-index: 1; /* Ensure the text stays on top of the bars */
+    z-index: 1;
+    /* Ensure the text stays on top of the bars */
     padding: 0 20px;
 }
 
-#left-bar, #right-bar {
+#left-bar,
+#right-bar {
     height: 20px;
     background-color: green;
-    width: 45%; /* Start both bars with 45% width */
-    transition: width 1s linear; /* Smooth shrinking effect */
-    border-radius: 5px; /* Rounded edges */
+    width: 45%;
+    /* Start both bars with 45% width */
+    transition: width 1s linear;
+    /* Smooth shrinking effect */
+    border-radius: 5px;
+    /* Rounded edges */
 }
 
 #left-bar {
@@ -153,6 +160,67 @@ audio {
     border-bottom-right-radius: 10px;
 }
 
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+
+    /* Use flexbox for centering the modal */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+
+    display: none;
+}
+
+/* Modal Content */
+.modal-content {
+    color: white;
+    background-color: #001d53;
+    border: 2px solid rgb(48, 124, 255);
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    /* Width of modal */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
 #answer-box {
     color: white;
     font-size: 1.3em;
@@ -160,45 +228,50 @@ audio {
     width: 80%;
     margin: 0 auto;
     display: flex;
-    flex-wrap: wrap; /* Allows answers to wrap to a new line */
-    justify-content: space-between; /* Space between answers */
+    flex-wrap: wrap;
+    /* Allows answers to wrap to a new line */
+    justify-content: space-between;
+    /* Space between answers */
 }
 
 .answer {
-    width: 47%; /* Ensure two answers fit per row */
+    width: 47%;
+    /* Ensure two answers fit per row */
     padding: 15px;
     border: 2px solid rgb(48, 124, 255);
     border-radius: 10px;
     text-align: center;
-    margin-bottom: 20px; /* Space between rows */
+    margin-bottom: 20px;
+    /* Space between rows */
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .answer span {
-    display: inline-block; /* Keeps the text inside each answer box properly aligned */
+    display: inline-block;
+    /* Keeps the text inside each answer box properly aligned */
 }
 
 
 
 #pre-start {
-	display: none;
+    display: none;
 }
 
 .answer:hover {
-	text-decoration: underline;
-	cursor: pointer;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .options-button {
-	width: 64px;
-	height: 64px;
-	margin-left: 12px;
-	float: left;
-	background-position: 0 0;
-	cursor: pointer;
+    width: 64px;
+    height: 64px;
+    margin-left: 12px;
+    float: left;
+    background-position: 0 0;
+    cursor: pointer;
 }
 
 .options-button:hover {
-	background-position: 0 -64px !important;
+    background-position: 0 -64px !important;
 }

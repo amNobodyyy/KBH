@@ -82,6 +82,37 @@ var MillionaireModel = function (data) {
 		return self.questions[self.level() - 1].content[index];
 	}
 
+	self.renderQuestionWithDelay = function () {
+		// First, hide all answers to make them appear gradually
+		$("#answer-one, #answer-two, #answer-three, #answer-four").hide();
+
+		// Show the question immediately
+		var questionText = self.getQuestionText();
+		document.querySelector('.content').innerHTML = questionText;
+
+		// Render the answers one by one with a delay
+
+		// Show the first answer after 1 second
+		setTimeout(function () {
+			$("#answer-one").fadeIn('slow');
+		}, 3000);
+
+		// Show the second answer after 2 seconds
+		setTimeout(function () {
+			$("#answer-two").fadeIn('slow');
+		}, 4000);
+
+		// Show the third answer after 3 seconds
+		setTimeout(function () {
+			$("#answer-three").fadeIn('slow');
+		}, 5000);
+
+		// Show the fourth answer after 4 seconds
+		setTimeout(function () {
+			$("#answer-four").fadeIn('slow');
+		}, 6000);
+	};
+
 	// Observable to store the formatted time (MM:SS)
 	self.formattedTime = ko.computed(function () {
 		var totalSeconds = self.timeLeft();
@@ -90,7 +121,7 @@ var MillionaireModel = function (data) {
 		// Ensure seconds are always two digits (e.g., 03, 05)
 		return minutes + ":" + (seconds < 10 ? "0" + seconds : seconds);
 	});
-	
+
 	// Timer logic to start counting down
 	self.startTimer = function () {
 		// Get the timer value from the current question in the JSON
@@ -167,8 +198,12 @@ var MillionaireModel = function (data) {
 
 
 	self.leaveGame = function () {
+		if (self.transitioning)
+			return;
 		// Get the current money won
 		var currentMoneyWon = self.money();
+		var background = document.getElementById("background");
+		background.pause();
 		startSound("rightsound", false);
 		// Fade out the game screen and show the game-over message with the amount won
 		$("#game").fadeOut('slow', function () {
@@ -182,14 +217,28 @@ var MillionaireModel = function (data) {
 		if (self.transitioning || self.usedHint()) {
 			return;
 		}
-	
+
 		var hint = self.questions[self.level() - 1].hint;
-	
+
 		// Use .html() to replace any existing content with the new hint inside the div
 		$(".hint").html("Hint: " + hint);
-	
+		document.getElementById("hintModal").style.display = "flex";
+
 		self.usedHint(true);
 		$(event.target).fadeOut('slow');
+	};
+
+	// When the user clicks on the close button, hide the modal
+	document.querySelector(".close").onclick = function () {
+		document.getElementById("hintModal").style.display = "none";
+	};
+
+	// When the user clicks anywhere outside of the modal, close it
+	window.onclick = function (event) {
+		var modal = document.getElementById("hintModal");
+		if (event.target == modal) {
+			modal.style.display = "none";
+		}
 	};
 
 	// Fades out an option used if possible
@@ -240,7 +289,7 @@ var MillionaireModel = function (data) {
 
 						var win = document.getElementById("winsound");
 						win.play();
-						
+
 						$("#game").fadeOut('slow', function () {
 							$("#game-over").html('You Won ₹1000!');
 							$("#game-over").fadeIn('slow');
@@ -257,6 +306,8 @@ var MillionaireModel = function (data) {
 						self.startTimer(); // Restart the timer for the next question
 						self.transitioning = false;
 
+						self.renderQuestionWithDelay();
+
 						if (self.level() === 5) { // Assuming 5 is the last question
 							$(".lifeline").fadeOut('slow'); // Hides all lifeline buttons
 						}
@@ -269,6 +320,8 @@ var MillionaireModel = function (data) {
 	// Executes the proceedure of guessing incorrectly, losing the game.
 	self.wrongAnswer = function (elm) {
 		$("#" + elm).slideUp('slow', function () {
+			var background = document.getElementById("background");
+			background.pause();
 			startSound('wrongsound', false);
 			$("#" + elm).css('background', 'red').slideDown('slow', function () {
 				setTimeout(function () {
@@ -314,6 +367,8 @@ $(document).ready(function () {
 			$("#pre-start").fadeOut('slow', function () {
 				startSound('background', true);
 				$("#game").fadeIn('slow');
+
+				gameModel.renderQuestionWithDelay();
 
 				// *** Start the timer for the first question ***
 				gameModel.startTimer();
