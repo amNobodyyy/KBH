@@ -109,16 +109,12 @@ audio {
 	background: url('../img/50-50-removebg-preview.png') no-repeat 0 0;
 }
 
-#phone-friend {
-	background: url('../img/phone-friend-removebg-preview.png') no-repeat 0 0;
+#hint{
+    background: url('../img/Hint-removebg-preview.png') no-repeat 0 0;
 }
 
-#audience {
-	background: url('../img/audience-removebg-preview.png') no-repeat 0 0;
-}
-
-#swap-question {
-	background: url();
+#exit{
+    background: url('../img/exit-removebg-preview.png') no-repeat 0 0;
 }
 
 #timer-container {

@@ -33,24 +33,20 @@ Author: Aaron Nech
 		<!-- The actual game markup -->
 		<div id="game">
 			<div id="top">
-				<img src="img/logo-removebg-preview.jpg" id="logo" />
+				<img src="img/KBH-logo.png" id="logo" />
 				<ul id="levels">
-					<li data-bind="css: {active: level() == 5}" data-amt="160" data-lvl="5">₹160</li>
-					<li data-bind="css: {active: level() == 4}" data-amt="80" data-lvl="4">₹80</li>
-					<li id="checkpoint" data-bind="css: {active: level() == 3}" data-amt="40" data-lvl="3">₹40</li>
-					<li data-bind="css: {active: level() == 2}" data-amt="20" data-lvl="2">₹20</li>
-					<li data-bind="css: {active: level() == 1}" data-amt="10" data-lvl="1">₹10</li>
+					<li data-bind="css: {active: level() == 5}" data-amt="1000" data-lvl="5">₹1000</li>
+					<li data-bind="css: {active: level() == 4}" data-amt="700" data-lvl="4">₹700</li>
+					<li id="checkpoint" data-bind="css: {active: level() == 3}" data-amt="300" data-lvl="3">₹300</li>
+					<li data-bind="css: {active: level() == 2}" data-amt="100" data-lvl="2">₹100</li>
+					<li data-bind="css: {active: level() == 1}" data-amt="40" data-lvl="1">₹40</li>
 				</ul>
 				<div class="clear"></div>
 			</div>
 			<div id="options">
-				<div id="fifty" class="options-button" data-bind="click: fifty"></div>
-				<div id="phone-friend" class="options-button" data-bind="click: usePhone"></div>
-				<div id="audience" class="options-button" data-bind="click: useAudience"></div>
-				<!-- <div id="swap-question" class="options-button" data-bind="click: swapQuestion"><p>Swap</p></div> -->
-				<div id="exit" class="options-button" data-bind="click: leaveGame">
-					<p>Leave Game</p>
-				</div>				
+				<div id="fifty" class="options-button lifeline" data-bind="click: fifty"></div>
+				<div id="hint" class="options-button lifeline" data-bind="click: useHint"></div>
+				<div id="exit" class="options-button" data-bind="click: leaveGame"></div>				
 				<div id="money">₹<span data-bind="text: formatMoney()"></span></div>
 			</div>
 			<div id="timer-container">
@@ -63,6 +59,7 @@ Author: Aaron Nech
 			<div id="question-box">
 				<span class="big-text">Q:</span>
 				<span class="content" data-bind="html: getQuestionText()"></span>
+				<div class="hint"></div>
 			</div>
 			<div id="answer-box">
 				<div id="answer-one" class="answer" data-bind="click: function() { answerQuestion(0, $element.id) }">

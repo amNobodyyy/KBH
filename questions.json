@@ -11,7 +11,8 @@
 		                "80 students"
 		            ],
 		            "correct" : 0,
-					"timer" : 180
+					"timer" : 180,
+					"hint" : "Only Programming = Total in Programming - Both Courses."
 		        },
 		        {
 		            "question" : "A car has a fuel efficiency of 12 Km/L and refuels with a new tank capacity of 50L after traveling 200km. How far can it travel on the new tank?",
@@ -22,7 +23,8 @@
 		                "700 km"
 		            ],
 		            "correct" : 2,
-					"timer" : 180
+					"timer" : 180,
+					"hint" : "Multiply the fuel efficiency by the capacity of the new tank to get the answer."
 		        },
 		        {
 		            "question" : "A submarine is traveling from Point X to Point Y, which are 300 km apart. The submarine's speed varies depending on its depth. When the submarine is near the surface ie. 0-100 metres deep, it travels at a speed of 40 km/h. When the submarine dives to a depth between 100 and 300 meters, its speed decreases linearly with depth according to the function v (d) = (40 - 0.1 x (d - 100)) km/h, where d is the depth in meters. The submarine dives to a depth of 250 meters and travels 200 km at that depth. In how much time will the submarine reach point Y? (moderate)",
@@ -33,7 +35,8 @@
 		                "10.5 hours"
 		            ],
 		            "correct" : 3,
-					"timer" : 180
+					"timer" : 180,
+					"hint" : "First, determine the speed of the submarine at the depth of 250 meters using the given function. Then, calculate the time taken to travel 200 km at that speed. After traveling 200 km at 250 meters depth, the submarine has 100 km left to reach Point Y.Calculate the time to travel the remaining 100 km at the surface speed of 40 km/h and then total time taken to reach Point Y"
 		        },
 		        {
 		            "question" : "You went to Aryabhata Canteen where you ordered 70ml of hot milk. You asked the staff to add a milk to water ratio of 5:3. But by mistake he added water to milk such that the ratio became 5:2. Help him find how many millilitres of water should be added to correct the ratio?",
@@ -44,7 +47,8 @@
 		                "20 ml"
 		            ],
 		            "correct" : 0,
-					"timer" : 180
+					"timer" : 180,
+					"hint" : "To correct the milk-to-water ratio, follow these steps:\n1.Calculate the current amount of water based on the incorrect ratio.\n2.Set up an equation using the desired ratio and the current amount of milk and water.\n3.Solve for the amount of water to add."
 		        },
 		        {
 		            "question" : "At 12 o'clock, 1st Jan 2024, three clocks showed the correct time. One of them went on being infallible while the second lost one minute every 24 hours and the third gained one minute each day. On what date would all three clocks again show the correct 12 o'clock time for the first time?",
@@ -70,7 +74,8 @@
 		                "720"
 		            ],
 		            "correct" : 2,
-					"timer" : 120
+					"timer" : 120,
+					"hint" : "S<sub>n</sub> = n / 2 x (2a + (n - 1)d)"
 		        },
 		        {
 		            "question" : "Solve the differential equation dy/dx = 3x<sup>2</sup> given that y=2 when x=0.",
@@ -81,7 +86,8 @@
 		                "y = 2x<sup>3</sup> + 3"
 		            ],
 		            "correct" : 0,
-					"timer" : 120
+					"timer" : 120,
+					"hint" : "To solve the differential equation, you need to integrate both sides. After finding the general solution, use the given condition y=2 when x=0 to find the constant of integration."
 		        },
 		        {
 		            "question" : "In a recent survey, it was found that 25 people liked product A, 30 liked product B, and 35 liked product C. Additionally, 16 people liked both products A and B, 15 liked both products C and A, 18 liked both products B and C, and 10 people liked all three products. How many people liked only product C? ",
@@ -92,7 +98,8 @@
 		                "16"
 		            ],
 		            "correct" : 2,
-					"timer" : 120
+					"timer" : 120,
+					"hint" : "Use the principle of inclusion-exclusion to find the number of people who liked only product C. Start by defining the sets and their intersections, then apply the formula to find the counts for each group."
 		        },
 		        {
 		            "question" : "Our Somaiya football ground is in the shape of ellipse having equation 4x<sup>2</sup> + 9y<sup>2</sup> = 36. The faculty decides to set two football net at the foci of ellipse. Find the distance between those nets.",
@@ -103,7 +110,8 @@
 		                "4&radic;3 units"
 		            ],
 		            "correct" : 1,
-					"timer" : 120
+					"timer" : 120,
+					"hint" : "To find the distance between the foci of the ellipse, use the formula for the distance between the foci, which involves the semi-major and semi-minor axes."
 		        },
 		        {
 		            "question" : "A classic vinyl record with a total diameter of 12 cm is being played. The DJ explains that the outermost 1 cm of the record does not contain any music, and the inner 4 cm diameter from the center is just for show—no grooves are present in this section. The grooves on the record are packed tightly, with approximately 70 grooves per square centimeter of area. Calculate the total number of grooves on the record. (&pi; = 22/7) ",
@@ -129,7 +137,8 @@
 		                "66"
 		            ],
 		            "correct" : 2,
-					"timer" : 120
+					"timer" : 120,
+					"hint" : ""
 		        },
 		        {
 		            "question" : "A server transmits data to a client at a constant rate of 50 MB per second. However, due to network congestion, the transmission rate is reduced by 25% for the first 5 minutes. Afterward, the rate returns to the normal 50 MB per second. How much data is transmitted in the first 5 minutes?",
@@ -140,7 +149,8 @@
 		                "12500 MB"
 		            ],
 		            "correct" : 1,
-					"timer" : 120
+					"timer" : 120,
+					"hint" : "First, calculate the reduced transmission rate by reducing the normal rate by 25%. Then, find the amount of data transmitted at this reduced rate for the first 5 minutes by multiplying the reduced rate by the total time in seconds."
 		        },
 		        {
 		            "question" : "In Somaiya canteen, the price of milk at the rate of ₹5/l was first increased by 10%. But then a special discount was introduced for FY students and the price decreased by 30%. What is the net percentage change in final price? What is the final price to be paid if you buy 20 litres of milk?",
@@ -151,7 +161,8 @@
 		                "70"
 		            ],
 		            "correct" : 1,
-					"timer" : 120
+					"timer" : 120,
+					"hint" : "New Price = Initial Price + (Initial Price x 10 / 100)\nNet Change = (Final Price - Initial Price) / Initial Price x 100"
 		        },
 		        {
 		            "question" : "A person reaches a park 15 minutes late if he jogs at 6 km/h. If he jogs at 8 km/h instead, he arrives 10 minutes early. What is the distance he covers?",
@@ -162,7 +173,8 @@
 		                "6 km"
 		            ],
 		            "correct" : 0,
-					"timer" : 120
+					"timer" : 120,
+					"hint" : "Calculate the difference btw t1 and t2"
 		        },
 		        {
 		            "question" : "In a FY sheet metal workshop, a group of students are asked to design a cylindrical tank with an open top and of storage 100 cubic meters. The tank is to be made from a sheet of an alloy. The cost of the allow sheet is ₹5 square meter. The students are tasked to minimize the cost of the metal used. Hence, calculate the minimum cost of the sheet used. Write the final value of cost nearest to the multiple of 5.",
@@ -188,7 +200,8 @@
 		                "12 hours"
 		            ],
 		            "correct" : 3,
-					"timer" : 120
+					"timer" : 120,
+					"hint" : "To solve this, think about how many trips the truck needs to make. The truck can carry only 1,000 kg per trip, so for camps that need more than 1,000 kg, multiple trips are required. Once you figure out the total number of trips, multiply that by the time per trip (2 hours)."
 		        },
 		        {
 		            "question" : "If coordinates of a point is given by (x<sup>2</sup> + y<sup>2</sup>, x + y)=(40, 7) then find the value of product of x and y.",
@@ -199,10 +212,11 @@
 		                "3/5"
 		            ],
 		            "correct" : 2,
-					"timer" : 120
+					"timer" : 120,
+					"hint" : "You have two equations from the given point coordinates. Use substitution or elimination to solve for x and y. Once you find the values of x and y, compute their product."
 		        },
 		        {
-		            "question" : "A tank has two pipes, A and B. Pipe A can fill the tank in 6 hours, and pipe B can fill it in 8 hours. However, there is a leak in the tank that can empty the filled tank in 12 hours. If both pipes A and B are opened simultaneously along with the leak, how long will it take to f ill the tank?",
+		            "question" : "A tank has two pipes, A and B. Pipe A can fill the tank in 6 hours, and pipe B can fill it in 8 hours. However, there is a leak in the tank that can empty the filled tank in 12 hours. If both pipes A and B are opened simultaneously along with the leak, how long will it take to fill the tank?",
 		            "content" : [
 		                "4.8 hours",
 		                "5.2 hours",
@@ -210,7 +224,8 @@
 		                "5.4 hours"
 		            ],
 		            "correct" : 0,
-					"timer" : 120
+					"timer" : 120,
+					"hint" : "To solve this problem, calculate the rates of filling and emptying the tank, then combine them to find the net rate when both pipes and the leak are working together."
 		        },
 		        {
 		            "question" : "If you are standing in a line such that consecutive people in the line are given token of numbers 3,7,11,….407. How many people are there in the line? What is your token number if you are 20th in the line from the end? ",
@@ -221,7 +236,8 @@
 		                "99 people, 361 token"
 		            ],
 		            "correct" : 0,
-					"timer" : 120
+					"timer" : 120,
+					"hint" : "To find the number of people in the line and your token number, first identify the pattern in the sequence of token numbers, which is an arithmetic sequence."
 		        },
 		        {
 		            "question" : "At an air show, three aerobatic jets are flying in a circular track. All 3 jets pass the start line at once. If Jet A takes 36 seconds to complete a lap, Jet B takes 24 seconds, and Jet C takes 48 seconds, what is the probability that all the 3 jets are side by side at a randomly chosen time between the start and 144th second?",
@@ -247,10 +263,11 @@
 		                "0.77"
 		            ],
 		            "correct" : 1,
-					"timer" : 120
+					"timer" : 120,
+					"hint" : "P(A U B) = P(A) + P(B) - P(A ∩ B)"
 		        },
 		        {
-		            "question" : "If f(x)=x3 and x belongs to [-2,2] find absolute maxima.",
+		            "question" : "If f(x)=x<sup>3</sup> and x belongs to [-2,2] find absolute maxima.",
 		            "content" : [
 		                "8",
 		                "6",
@@ -258,7 +275,8 @@
 		                "4"
 		            ],
 		            "correct" : 0,
-					"timer" : 120
+					"timer" : 120,
+					"hint" : "Find the derivative of f(x) then set it to 0 to find critical points. Evaluate the function at critical points and endpoints of interval to determine absolute maximum."
 		        },
 		        {
 		            "question" : "Consider the set A consisting of all prime numbers less than 10, and set B consisting of the first x odd natural numbers. If the number of possible relations from A to B is 4096, determine the number of elements in set B.",
@@ -269,7 +287,8 @@
 		                "5"
 		            ],
 		            "correct" : 1,
-					"timer" : 120
+					"timer" : 120,
+					"hint" : "Number of relations = 2<sup>|A| x |B|</sup>"
 		        },
 		        {
 		            "question" : "Find Coordinate of the point whose abscissa is 0 from the equation of the straight line whose intercepts on x axis and y axis are thrice and twice of those by the line 4x + 3y = 12.",
@@ -280,7 +299,8 @@
 		                "8"
 		            ],
 		            "correct" : 3,
-					"timer" : 120
+					"timer" : 120,
+					"hint" : "Step 1: Determine the intercepts of the line 4x+3y=124x + 3y = 124x+3y=12\nStep 2: Determine the new intercepts\nStep 3: Write the equation of the new line\nStep 4: Find the coordinate where the abscissa is 0"
 		        },
 				{
 				    "correct": 1,

@@ -68,8 +68,7 @@ var MillionaireModel = function (data) {
 	// The three options the user can use to 
 	// attempt to answer a question (1 use each)
 	this.usedFifty = new ko.observable(false);
-	this.usedPhone = new ko.observable(false);
-	this.usedAudience = new ko.observable(false);
+	this.usedHint = new ko.observable(false);
 	// this.usedSwapQuestion = new ko.observable(false);
 
 	// Grabs the question text of the current question
@@ -91,7 +90,7 @@ var MillionaireModel = function (data) {
 		// Ensure seconds are always two digits (e.g., 03, 05)
 		return minutes + ":" + (seconds < 10 ? "0" + seconds : seconds);
 	});
-
+	
 	// Timer logic to start counting down
 	self.startTimer = function () {
 		// Get the timer value from the current question in the JSON
@@ -179,29 +178,19 @@ var MillionaireModel = function (data) {
 		});
 	};
 
-	self.useAudience = function (item, event) {
-		self.timerPaused(!self.timerPaused());
-
-		if (!self.timerPaused()) {
-			if (self.transitioning)
-				return;
-			$(event.target).fadeOut('slow');
+	self.useHint = function (item, event) {
+		if (self.transitioning || self.usedHint()) {
+			return;
 		}
-
-		$("#audience").css("background-position", "0px -64px")
-	}
-
-	self.usePhone = function (item, event) {
-		self.timerPaused(!self.timerPaused());
-
-		if (!self.timerPaused()) {
-			if (self.transitioning)
-				return;
-			$(event.target).fadeOut('slow');
-		}
-
-		$("#phone-friend").css("background-position", "0px -64px")
-	}
+	
+		var hint = self.questions[self.level() - 1].hint;
+	
+		// Use .html() to replace any existing content with the new hint inside the div
+		$(".hint").html("Hint: " + hint);
+	
+		self.usedHint(true);
+		$(event.target).fadeOut('slow');
+	};
 
 	// Fades out an option used if possible
 	self.fadeOutOption = function (item, event) {
@@ -210,17 +199,6 @@ var MillionaireModel = function (data) {
 		$(event.target).fadeOut('slow');
 	}
 
-	self.getLastCheckpoint = function () {
-		var currentLevel = self.level();
-
-		if (currentLevel > 6) {
-			return 320;
-		} else if (currentLevel > 3) {
-			return 40;
-		} else {
-			return 0;
-		}
-	}
 
 	// Attempts to answer the question with the specified
 	// answer index (0-3) from a click event of elm
@@ -264,10 +242,12 @@ var MillionaireModel = function (data) {
 						win.play();
 						
 						$("#game").fadeOut('slow', function () {
-							$("#game-over").html('You Win!');
+							$("#game-over").html('You Won ₹1000!');
 							$("#game-over").fadeIn('slow');
 						});
 					} else {
+						// Clear the hint when moving to the next question
+						$(".hint").html("");
 						self.level(self.level() + 1);
 						$("#" + elm).css('background', 'none');
 						$("#answer-one").show();
@@ -276,6 +256,10 @@ var MillionaireModel = function (data) {
 						$("#answer-four").show();
 						self.startTimer(); // Restart the timer for the next question
 						self.transitioning = false;
+
+						if (self.level() === 5) { // Assuming 5 is the last question
+							$(".lifeline").fadeOut('slow'); // Hides all lifeline buttons
+						}
 					}
 				}, 5000);
 			});
@@ -294,12 +278,10 @@ var MillionaireModel = function (data) {
 					var correctAnswerId = answerIds[correctIndex];
 					$(correctAnswerId).css('background', 'green');
 
-					var getLastCheckpoint = self.getLastCheckpoint();
-
 					// After showing the correct answer, proceed to the game over screen
 					setTimeout(function () {
 						$("#game").fadeOut('slow', function () {
-							$("#game-over").html('You have won ₹' + getLastCheckpoint);
+							$("#game-over").html('You Lost! Better luck next time!');
 							$("#game-over").fadeIn('slow');
 							self.transitioning = false;
 						});
@@ -319,7 +301,7 @@ var MillionaireModel = function (data) {
 // the start game functionality to trigger a game model
 // being created
 $(document).ready(function () {
-	$.getJSON("questions2.json", function (data) {
+	$.getJSON("questions.json", function (data) {
 		for (var i = 1; i <= data.games.length; i++) {
 			$("#problem-set").append('<option value="' + i + '">' + i + '</option>');
 		}

@@ -10,7 +10,8 @@
 		                "42",
 		                "72"
 		            ],
-		            "correct" : 0
+		            "correct" : 0,
+					"hint" : ""
 		        },
 		        {
 		            "question" : "If f( f(x) )= x<sup>3</sup> - 4 and f(0) = 3 then what will be f(3)? ",
@@ -20,17 +21,19 @@
 		                "3",
 		                "1"
 		            ],
-		            "correct" : 0
+		            "correct" : 0,
+					"hint" : ""
 		        },
 		        {
 		            "question" : "Alpha and Sierra are competing to see who can type faster. Alpha can type 60 words per minute, and Sierra can type 50 words per minute. Sierra starts typing a 1,000-word essay at 9:00 AM, and Alpha starts typing the same essay 10 minutes later. At what time will Alpha catch up with Sierra?",
 		            "content" : [
 		                "9:40 AM",
-		                "9:50 AM",
 		                "10:00 AM",
+		                "9:50 AM",
 		                "9:30 AM"
 		            ],
-		            "correct" : 1
+		            "correct" : 1,
+					"hint" : ""
 		        },
 		        {
 		            "question" : "In a classroom, the ratio of boys to girls is 3:5. The ratio of girls to teachers is 7:1. If there are 56 students in total. How many teachers are there in the class? ",
@@ -40,17 +43,19 @@
 		                "7 teachers",
 		                "5 teachers"
 		            ],
-		            "correct" : 3
+		            "correct" : 3,
+					"hint" : ""
 		        },
 		        {
-		            "question" : "An aerobatics jet is performing a series of manoeuvres on a circular track. The jet completes each lap in 40 seconds. The speed variation of the jet during each lap is given by the function v(t) = [100 + 20sin(%pi t/20)]m/s. Calculate the distance covered by the jet in 5 minutes and the average speed of the plane over the given time period.(Round of values to whole number)",
+		            "question" : "An aerobatics jet is performing a series of manoeuvres on a circular track. The jet completes each lap in 40 seconds. The speed variation of the jet during each lap is given by the function v(t) = [100 + 20sin(&pi; t/20)]m/s. Calculate the distance covered by the jet in 5 minutes and the average speed of the plane over the given time period.(Round of values to whole number)",
 		            "content" : [
 		                "25,000 m, 80 m/s",
 		                "35,000 m, 110 m/s",
 		                "20,000 m, 90 m/s",
 		                "30,000 m, 100 m/s"
 		            ],
-		            "correct" : 3
+		            "correct" : 3,
+					"hint" : ""
 		        }
 		    ]
 		},
@@ -64,7 +69,8 @@
 		                "0.2",
 		                "0.5"
 		            ],
-		            "correct" : 2
+		            "correct" : 2,
+					"hint" : ""
 		        },
 		        {
 		            "question" : "Calculate the surface area of a sphere with radius r=5 units.?",
@@ -74,7 +80,8 @@
 		                "75&pi;",
 		                "125&pi;"
 		            ],
-		            "correct" : 0
+		            "correct" : 0,
+					"hint" : ""
 		        },
 		        {
 		            "question" : "A server transmits data to a client at a constant rate of 50 MB per second. However, due to network congestion, the transmission rate is reduced by 25% for the first 5 minutes. Afterward, the rate returns to the normal 50 MB per second. How much data is transmitted in the first 5 minutes?",
@@ -84,7 +91,8 @@
 		                "11250 MB",
 		                "10750 MB"
 		            ],
-		            "correct" : 2
+		            "correct" : 2,
+					"hint" : ""
 		        },
 		        {
 		            "question" : "A train departs from Station A at 7:00 AM, travelling at a constant speed of 80 km/h toward Station B, which is 400 km away. At the same time, another train leaves from Station B, heading towards Station A at a speed of 100 km/h. At what time will the two trains cross each other?",
@@ -94,7 +102,8 @@
 		                "8:32 AM",
 		                "9:30 AM"
 		            ],
-		            "correct" : 1
+		            "correct" : 1,
+					"hint" : ""
 		        },
 		        {
 		            "question" : "A hot air balloon is being inflated at a constant rate. The balloon starts inflating from an unknown initial volume. After 10 minutes, the volume of the balloon reaches 150 cubic metres, and after 20 minutes, it reaches 250 cubic metres. In how much time will the volume of the hot air balloon reach 400 cubic metres.",
@@ -104,7 +113,8 @@
 		                "35 mins",
 		                "45 mins"
 		            ],
-		            "correct" : 2
+		            "correct" : 2,
+					"hint" : ""
 		        }
 		    ]
 		},
@@ -118,17 +128,19 @@
 		                "(x - 2)<sup>2</sup> + (y + 3)<sup>2</sup> = 25",
 		                "(x - 3)<sup>2</sup> + (y - 2)<sup>2</sup> = &radic;5"
 		            ],
-		            "correct" : 2
+		            "correct" : 2,
+					"hint" : ""
 		        },
 		        {
-		            "question" : "6.Find the sum of the first 10 terms of the arithmetic sequence 2,5,8,11,… ",
+		            "question" : "Find the sum of the first 10 terms of the arithmetic sequence 2,5,8,11,… ",
 		            "content" : [
 		                "160",
 		                "155",
 		                "150",
 		                "165"
 		            ],
-		            "correct" : 1
+		            "correct" : 1,
+					"hint" : ""
 		        },
 		        {
 		            "question" : "<img src=\"img/question.png\" alt=\"integration-moderate-4\">",
@@ -138,7 +150,8 @@
 		                "&pi; / 4",
 		                "&pi; / 2"
 		            ],
-		            "correct" : 2
+		            "correct" : 2,
+					"hint" : ""
 		        },
 		        {
 		            "question" : "Water flows into a cylindrical tank at a constant rate. The tank has a radius of 5 meters and is initially empty. If water flows into the tank at a rate of 5 cubic meters per minute, how long will it take to fill the tank to a height of 4 meters?",
@@ -148,7 +161,8 @@
 		                "65.24 mins",
 		                "62.83 mins"
 		            ],
-		            "correct" : 3
+		            "correct" : 3,
+					"hint" : ""
 		        },
 		        {
 		            "question" : "A commercial airline is flying at a low altitude of 3 Km due to a hydraulic leak and damage to the Auxiliary Power Unit. This hydraulic leak does not affect the landing gears. The aircraft is losing altitude at a steady rate of 150 meters per minute. The airport is 50 Km away, but there is an ocean between the plane's current position and the airport. The aircraft is flying at a constant speed of 600 km/h. Due to the hydraulic leak, the plane cannot climb and must maintain an inclined path towards the airport. Calculate the time after which the plane will reach the runway, and the sea level. Will the pilot be able to land safely on the runway or perform a water landing, assuming the weather conditions are optimal?",
@@ -158,7 +172,8 @@
 		                "5 mins for runway, 25 mins for sea level, water landing required",
 		                "10 mins for runway, 30 mins for sea level, safe landing"
 		            ],
-		            "correct" : 1
+		            "correct" : 1,
+					"hint" : ""
 		        }
 		    ]
 		},
@@ -172,7 +187,8 @@
 		                "1 / 3",
 		                "1 / 4"
 		            ],
-		            "correct" : 3
+		            "correct" : 3,
+					"hint" : ""
 		        },
 		        {
 		            "question" : "If the 12th and 19th term of AP are 16 and 32 respectively, then find the 5th term of this AP.",
@@ -182,7 +198,8 @@
 		                "0",
 		                "8"
 		            ],
-		            "correct" : 2
+		            "correct" : 2,
+					"hint" : ""
 		        },
 		        {
 		            "question" : "A rectangular park has a diagonal path that runs from one corner to the opposite corner. The length of the park is 24 meters, and the width is 10 meters. A gardener wants to place a bench exactly halfway along the diagonal path. How far is the bench from each corner of the park?",
@@ -192,7 +209,8 @@
 		                "13 m",
 		                "15 m"
 		            ],
-		            "correct" : 2
+		            "correct" : 2,
+					"hint" : ""
 		        },
 		        {
 		            "question" : "A research lab is working on a project to produce a chemical compound. The production rate of the compound doubles every hour. At the start of the process, the lab produces 5 grams of the compound in the first hour. How much of the compound will be produced in the 5th hour?",
@@ -202,7 +220,8 @@
 		                "100 grams",
 		                "80 grams"
 		            ],
-		            "correct" : 3
+		            "correct" : 3,
+					"hint" : ""
 		        },
 		        {
 		            "question" : "A student is working on a web development project that requires 300 hours to complete. She plans to work on the project daily, but her time availability varies on weekends and weekdays. On weekdays, she can dedicate, 4 hours per day, and on weekends, she can dedicate 6 hours per day. However, due to errors and revisions, she will lose an hour every 10 hours. How many effective hours will be required, taking into account the lost times due to the errors and revision. How many total days will it take for her to complete this project? (Round off final number of days)",
@@ -212,7 +231,8 @@
 		                "333.33 hours, 78 days",
 		                "333.33 hours, 73 days"
 		            ],
-		            "correct" : 3
+		            "correct" : 3,
+					"hint" : ""
 		        }
 		    ]
 		},
@@ -226,7 +246,8 @@
 		                "x-intercept = 2, y-intercept = 4",
 		                "x-intercept = -4, y-intercept = -3"
 		            ],
-		            "correct" : 1
+		            "correct" : 1,
+					"hint" : ""
 		        },
 		        {
 		            "question" : "10.The equation of a parabola is y<sup>2</sup>=12x. Find its Latus rectum.",
@@ -236,7 +257,8 @@
 		                "8",
 		                "16"
 		            ],
-		            "correct" : 1
+		            "correct" : 1,
+					"hint" : ""
 		        },
 		        {
 		            "question" : "Alpha and Bravo are in a 150 km race. Alpha starts 30 minutes before Bravo. Alpha runs at a constant speed of 10 km/h, while Bravo runs at a constant speed of 15 km/h. How long will it take Bravo to catch up with Alpha after he starts the race?",
@@ -246,7 +268,8 @@
 		                "45 mins",
 		                "120 mins"
 		            ],
-		            "correct" : 0
+		            "correct" : 0,
+					"hint" : ""
 		        },
 		        {
 		            "question" : "A bag contains 7 red, 8 blue, and 9 green marbles. Three marbles are drawn randomly from the bag without replacement. What is the probability that all three marbles drawn will have the same colour?",
@@ -256,7 +279,8 @@
 		                "0.104",
 		                "0.12"
 		            ],
-		            "correct" : 1
+		            "correct" : 1,
+					"hint" : ""
 		        },
 		        {
 		            "question" : "A sinking ship is travelling in the line having equation 12(x + 6) = 5(y - 2). A rescue boat is at point (-1, 1). If the speed of boat is 20km/hr then how much time in minutes will it take to reach the ship?",
@@ -266,7 +290,8 @@
 		                "10 mins",
 		                "12 mins"
 		            ],
-		            "correct" : 1
+		            "correct" : 1,
+					"hint" : ""
 		        }
 		    ]
 		}
