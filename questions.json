@@ -3,168 +3,176 @@
 		{
 		    "questions" : [
 		        {
-		            "question" : "In what children's game are participants chased by someone designated \"It\"?",
+		            "question" : "In a college, 120 students are enrolled in either a programming course, a math course, or both. Out of these students, 80 students are taking the programming course, 60 students are taking the math course and 40 students are enrolled in both the courses. How many students are enrolled in only the programming course?",
 		            "content" : [
-		                "Tag",
-		                "Simon Says",
-		                "Charades",
-		                "Hopscotch"
-		            ],
-		            "correct" : 0,
-					"timer" : 10
-		        },
-		        {
-		            "question" : "On a radio, stations are changed by using what control?",
-		            "content" : [
-		                "Tuning",
-		                "Volume",
-		                "Bass",
-		                "Treble"
+		                "40 students",
+		                "20 students",
+		                "60 students",
+		                "80 students"
 		            ],
 		            "correct" : 0,
 					"timer" : 180
 		        },
 		        {
-		            "question" : "Which material is most dense?",
+		            "question" : "A car has a fuel efficiency of 12 Km/L and refuels with a new tank capacity of 50L after traveling 200km. How far can it travel on the new tank?",
 		            "content" : [
-		                "Silver",
-		                "Styrofoam",
-		                "Butter",
-		                "Gold"
+		                "550 km",
+		                "500 km",
+		                "600 km",
+		                "700 km"
+		            ],
+		            "correct" : 2,
+					"timer" : 180
+		        },
+		        {
+		            "question" : "A submarine is traveling from Point X to Point Y, which are 300 km apart. The submarine's speed varies depending on its depth. When the submarine is near the surface ie. 0-100 metres deep, it travels at a speed of 40 km/h. When the submarine dives to a depth between 100 and 300 meters, its speed decreases linearly with depth according to the function v (d) = (40 - 0.1 x (d - 100)) km/h, where d is the depth in meters. The submarine dives to a depth of 250 meters and travels 200 km at that depth. In how much time will the submarine reach point Y? (moderate)",
+		            "content" : [
+		                "12 hours",
+		                "9 hours",
+		                "8 hours",
+		                "10.5 hours"
 		            ],
 		            "correct" : 3,
 					"timer" : 180
 		        },
 		        {
-		            "question" : "Which state in the United States is largest by area?",
+		            "question" : "You went to Aryabhata Canteen where you ordered 70ml of hot milk. You asked the staff to add a milk to water ratio of 5:3. But by mistake he added water to milk such that the ratio became 5:2. Help him find how many millilitres of water should be added to correct the ratio?",
 		            "content" : [
-		                "Alaska",
-		                "California",
-		                "Texas",
-		                "Hawaii"
+		                "10 ml",
+		                "5 ml",
+		                "15 ml",
+		                "20 ml"
 		            ],
 		            "correct" : 0,
 					"timer" : 180
 		        },
 		        {
-		            "question" : "What is Aurora Borealis commonly known as?",
+		            "question" : "At 12 o'clock, 1st Jan 2024, three clocks showed the correct time. One of them went on being infallible while the second lost one minute every 24 hours and the third gained one minute each day. On what date would all three clocks again show the correct 12 o'clock time for the first time?",
 		            "content" : [
-		                "Fairy Dust",
-		                "Northern Lights",
-		                "Book of ages",
-		                "a Game of Thrones main character"
+		                "25 December 2025",
+		                "21 December 2025",
+		                "15 Janurat 2026",
+		                "31 December 2025"
 		            ],
 		            "correct" : 1,
 					"timer" : 300
+		        }
+		    ]
+		},
+		{
+		    "questions" : [
+		        {
+		            "question" : "Find the sum of the first 20 terms of an arithmetic sequence where the first term is 7 and the common difference is 3.",
+		            "content" : [
+		                "690",
+		                "700",
+		                "710",
+		                "720"
+		            ],
+		            "correct" : 2,
+					"timer" : 120
 		        },
-				{
-				    "correct": 3,
-				    "content": [
-				        "developed the telescope",
-				        "discovered four satellites of Jupiter",
-				        "discovered that the movement of pendulum produces a regular time measurement",
-				        "All of the above"
-				    ],
-				    "question": "Galileo was an Italian astronomer who",
-					"timer" : 300
-				},
-				{
-				    "correct": 3,
-				    "content": [
-				        "the infrared light kills bacteria in the body",
-				        "resistance power increases",
-				        "the pigment cells in the skin get stimulated and produce a healthy tan",
-				        "the ultraviolet rays convert skin oil into Vitamin D"
-				    ],
-				    "question": "Exposure to sunlight helps a person improve his health because",
-					"timer" : 300
-				},
-				{
-				    "correct": 0,
-				    "content": [
-				        "a club or a local sport association for remarkable achievements",
-				        "amateur athlete, not necessarily an Olympian",
-				        "National Olympic Committee for outstanding work",
-				        "None of the above"
-				    ],
-				    "question": "Sir Thomas Fearnley Cup is awarded to",
-					"timer" : 600
-				},
-				{
-				    "correct": 1,
-				    "content": [
-				        "1968",
-				        "1929",
-				        "1901",
-				        "1965"
-				    ],
-				    "question": "Oscar Awards were instituted in",
+		        {
+		            "question" : "Solve the differential equation dy/dx = 3x<sup>2</sup> given that y=2 when x=0.",
+		            "content" : [
+		                "y = x<sup>3</sup> + 2",
+		                "y = x<sup>2</sup> + 2",
+		                "y = 2x<sup>3</sup> + 2",
+		                "y = 2x<sup>3</sup> + 3"
+		            ],
+		            "correct" : 0,
 					"timer" : 120
-				},
-				{
-				    "correct": 2,
-				    "content": [
-				        "1998",
-				        "1989",
-				        "1979",
-				        "1800"
-				    ],
-				    "question": "When did Margaret Thatcher became the first female Prime Minister of Britain?",
+		        },
+		        {
+		            "question" : "In a recent survey, it was found that 25 people liked product A, 30 liked product B, and 35 liked product C. Additionally, 16 people liked both products A and B, 15 liked both products C and A, 18 liked both products B and C, and 10 people liked all three products. How many people liked only product C? ",
+		            "content" : [
+		                "14",
+		                "10",
+		                "12",
+		                "16"
+		            ],
+		            "correct" : 2,
 					"timer" : 120
-				},
-				{
-				    "correct": 2,
-				    "content": [
-				        "15th April",
-				        "12th December",
-				        "1st May",
-				        "1st August"
-				    ],
-				    "question": "When is the International Workers' Day?",
+		        },
+		        {
+		            "question" : "Our Somaiya football ground is in the shape of ellipse having equation 4x<sup>2</sup> + 9y<sup>2</sup> = 36. The faculty decides to set two football net at the foci of ellipse. Find the distance between those nets.",
+		            "content" : [
+		                "2&radic;3 units",
+		                "2&radic;5 units",
+		                "2&radic;7 units",
+		                "4&radic;3 units"
+		            ],
+		            "correct" : 1,
 					"timer" : 120
-				},
-				{
-				    "correct": 2,
-				    "content": [
-				        "1962",
-				        "1963",
-				        "1964",
-				        "1965"
-				    ],
-				    "question": "When did China test their first atomic device?",
+		        },
+		        {
+		            "question" : "A classic vinyl record with a total diameter of 12 cm is being played. The DJ explains that the outermost 1 cm of the record does not contain any music, and the inner 4 cm diameter from the center is just for show—no grooves are present in this section. The grooves on the record are packed tightly, with approximately 70 grooves per square centimeter of area. Calculate the total number of grooves on the record. (&pi; = 22/7) ",
+		            "content" : [
+		                "5620 grooves",
+		                "4840 grooves",
+		                "4320 grooves",
+		                "4620 grooves"
+		            ],
+		            "correct" : 3,
 					"timer" : 120
-				},
-				{
-				    "correct": 3,
-				    "content": [
-				        "1904",
-				        "1905",
-				        "1908",
-				        "1909"
-				    ],
-				    "question": "When did Commander Robert Peary discover the North Pole?",
+		        }
+		    ]
+		},
+		{
+		    "questions" : [
+		        {
+		            "question" : "&#8747;<sub>1</sub><sup>3</sup> (4x<sup>3</sup> - 2x + 1) dx",
+		            "content" : [
+		                "82",
+		                "98",
+		                "74",
+		                "66"
+		            ],
+		            "correct" : 2,
 					"timer" : 120
-				},
-				{
-				    "correct": 0,
-				    "content": [
-				        "819/sq. km",
-				        "602/sq. km",
-				        "415/sq. km",
-				        "500/sq. km"
-				    ],
-				    "question": "What is the population density of Kerala?",
+		        },
+		        {
+		            "question" : "A server transmits data to a client at a constant rate of 50 MB per second. However, due to network congestion, the transmission rate is reduced by 25% for the first 5 minutes. Afterward, the rate returns to the normal 50 MB per second. How much data is transmitted in the first 5 minutes?",
+		            "content" : [
+		                "10250 MB",
+		                "11250 MB",
+		                "11750 MB",
+		                "12500 MB"
+		            ],
+		            "correct" : 1,
 					"timer" : 120
-				},
-				{
-				    "correct": 1,
-				    "content": [
-				        "4 km",
-				        "25 km",
-				        "500 m to 9 km",
-				        "150 km"
-				    ],
-				    "question": "What is the range of missile 'Akash'?",
+		        },
+		        {
+		            "question" : "In Somaiya canteen, the price of milk at the rate of ₹5/l was first increased by 10%. But then a special discount was introduced for FY students and the price decreased by 30%. What is the net percentage change in final price? What is the final price to be paid if you buy 20 litres of milk?",
+		            "content" : [
+		                "90",
+		                "77",
+		                "87",
+		                "70"
+		            ],
+		            "correct" : 1,
+					"timer" : 120
+		        },
+		        {
+		            "question" : "A person reaches a park 15 minutes late if he jogs at 6 km/h. If he jogs at 8 km/h instead, he arrives 10 minutes early. What is the distance he covers?",
+		            "content" : [
+		                "10 km",
+		                "12 km",
+		                "8 km",
+		                "6 km"
+		            ],
+		            "correct" : 0,
+					"timer" : 120
+		        },
+		        {
+		            "question" : "In a FY sheet metal workshop, a group of students are asked to design a cylindrical tank with an open top and of storage 100 cubic meters. The tank is to be made from a sheet of an alloy. The cost of the allow sheet is ₹5 square meter. The students are tasked to minimize the cost of the metal used. Hence, calculate the minimum cost of the sheet used. Write the final value of cost nearest to the multiple of 5.",
+		            "content" : [
+		                "450",
+		                "465",
+		                "470",
+		                "475"
+		            ],
+		            "correct" : 3,
 					"timer" : 120
 				}
 		    ]
@@ -172,552 +180,104 @@
 		{
 		    "questions" : [
 		        {
-		            "question" : "In the U.S., if it's not Daylight Saving Time, it's what?",
+		            "question" : "An army battalion is tasked with distributing supplies to soldiers stationed in a remote area. They have only 1 supply truck, with a capacity of 1,000 kg of supplies. The battalion needs to deliver supplies to 5 different camps with the requirements as Camp 1: 700 kg, Camp 2: 1,200 kg, Camp 3: 500 kg, Camp 4: 600 kg, Camp 5: 1,000 kg. If each trip takes 2 hours, in how much time will the supplies be delivered to all the camps?",
 		            "content" : [
-		                "Borrowed time",
-		                "Overtime",
-		                "Standard time",
-		                "Party time"
+		                "8 hours",
+		                "14 hours",
+		                "10 hours",
+		                "12 hours"
+		            ],
+		            "correct" : 3,
+					"timer" : 120
+		        },
+		        {
+		            "question" : "If coordinates of a point is given by (x<sup>2</sup> + y<sup>2</sup>, x + y)=(40, 7) then find the value of product of x and y.",
+		            "content" : [
+		                "4/5",
+		                "7/5",
+		                "9/5",
+		                "3/5"
 		            ],
 		            "correct" : 2,
 					"timer" : 120
 		        },
 		        {
-		            "question" : "Which part of the body are you most likely to \"stub\"?",
+		            "question" : "A tank has two pipes, A and B. Pipe A can fill the tank in 6 hours, and pipe B can fill it in 8 hours. However, there is a leak in the tank that can empty the filled tank in 12 hours. If both pipes A and B are opened simultaneously along with the leak, how long will it take to f ill the tank?",
 		            "content" : [
-		                "Toe",
-		                "Knee",
-		                "Elbow",
-		                "Brain"
+		                "4.8 hours",
+		                "5.2 hours",
+		                "5 hours",
+		                "5.4 hours"
 		            ],
 		            "correct" : 0,
 					"timer" : 120
 		        },
 		        {
-		            "question" : "Which country is largest by area?",
+		            "question" : "If you are standing in a line such that consecutive people in the line are given token of numbers 3,7,11,….407. How many people are there in the line? What is your token number if you are 20th in the line from the end? ",
 		            "content" : [
-		                "UK",
-		                "USA",
-		                "Russia",
-		                "China"
-		            ],
-		            "correct" : 2,
-					"timer" : 120
-		        },
-		        {
-		            "question" : "What does the \"F\" stand for in FBI?",
-		            "content" : [
-		                "Foreign",
-		                "Federal",
-		                "Flappy",
-		                "Face"
-		            ],
-		            "correct" : 1,
-					"timer" : 120
-		        },
-		        {
-		            "question" : "The US declared war on which country after the bombing of Pearl Harbor?",
-		            "content" : [
-		                "Japan",
-		                "Russia",
-		                "Germany",
-		                "China"
+		                "102 people, 331 token",
+		                "101 people, 341 token",
+		                "100 people, 351 token",
+		                "99 people, 361 token"
 		            ],
 		            "correct" : 0,
 					"timer" : 120
 		        },
-				{
-				    "correct": 0,
-				    "content": [
-				        "Letter of Credit (L/C)",
-				        "laissezfaire",
-				        "inflation",
-				        "None of the above"
-				    ],
-				    "question": "A guarantee to an exporter that the importer of his goods will pay immediately for the goods ordered by him, is known as",
+		        {
+		            "question" : "At an air show, three aerobatic jets are flying in a circular track. All 3 jets pass the start line at once. If Jet A takes 36 seconds to complete a lap, Jet B takes 24 seconds, and Jet C takes 48 seconds, what is the probability that all the 3 jets are side by side at a randomly chosen time between the start and 144th second?",
+		            "content" : [
+		                "1 / 72",
+		                "1 / 75",
+		                "1 / 145",
+		                "2 / 145"
+		            ],
+		            "correct" : 3,
 					"timer" : 120
-				},
-				{
-				    "correct": 3,
-				    "content": [
-				        "Visible light",
-				        "Infrared radiation",
-				        "X-rays and gamma rays",
-				        "Ultraviolet radiation"
-				    ],
-				    "question": "The ozone layer restricts",
-					"timer" : 120
-				},
-				{
-				    "correct": 0,
-				    "content": [
-				        "the first Buddhist pilgrim of China to visit India during the reign of Chandragupta Vikramaditya",
-				        "the discoverer of Puerto Rico and Jamaica",
-				        "the first Buddhist pilgrim of India to visit China",
-				        "None of the above"
-				    ],
-				    "question": "Fa-Hien was",
-					"timer" : 120
-				},
-				{
-				    "correct": 0,
-				    "content": [
-				        "Harvard",
-				        "University of Washington",
-				        "Yale",
-				        "Oxford"
-				    ],
-				    "question": "What was the first university in the United States",
-					"timer" : 120
-				},
-				{
-				    "correct": 0,
-				    "content": [
-				        "The amount of energy it takes to move an electron through a potential difference of 1 volt",
-				        "The number of volts it takes to move an electon a meter",
-				        "The number of electrons it takes to kill a human being",
-				        "The flux of current through a surface parallel to a capacitor"
-				    ],
-				    "question": "An electron volt is",
-					"timer" : 120
-				},
-				{
-				    "correct": 0,
-				    "content": [
-				        "14th November",
-				        "11th December",
-				        "15th October",
-				        "1st July"
-				    ],
-				    "question": "When is the World's Diabetes Day?",
-					"timer" : 120
-				},
-				{
-				    "correct": 0,
-				    "content": [
-				        "Kelvin",
-				        "Celsius",
-				        "Centigrade",
-				        "Fahrenheit"
-				    ],
-				    "question": "What is the S.I. unit of temperature?",
-					"timer" : 120
-				},
-				{
-				    "correct": 0,
-				    "content": [
-				        "July 21, 1969",
-				        "July 21, 1970",
-				        "July 21, 1963",
-				        "July 21, 1972"
-				    ],
-				    "question": "When did US astronauts Neil Armstrong and Edwin E. Aldrin land on the moon?",
-					"timer" : 120
-				},
-				{
-				    "correct": 0,
-				    "content": [
-				        "the density of milk increases",
-				        "the density of milk decreases",
-				        "the density of milk remains unchanged",
-				        "it becomes more viscous"
-				    ],
-				    "question": "When cream is separated from milk",
-					"timer" : 120
-				},
-				{
-				    "correct": 0,
-				    "content": [
-				        "1999",
-				        "1989",
-				        "1979",
-				        "1969"
-				    ],
-				    "question": "When did 19 NATO members and 11 'Partners for Peace' join hands for peace plan for Kosovo Crisis?",
-					"timer" : 120
-				}
+		        }
 		    ]
 		},
 		{
 		    "questions" : [
 		        {
-		            "question" : "An albino gorilla usually has what color fur?",
+		            "question" : "If P(A) = 0.54, P(B) = 0.69 and P(A ∩ B) = 0.35 find P(A U B)",
 		            "content" : [
-		                "Brown",
-		                "Black",
-		                "White",
-		                "Golden"
-		            ],
-		            "correct" : 2,
-					"timer" : 120
-		        },
-		        {
-		            "question" : "When you enter a situation without a definite plan of action, you are said to be \"playing it by\" what?",
-		            "content" : [
-		                "Fingertips",
-		                "Ear",
-		                "Nose",
-		                "Mouth"
+		                "0.65",
+		                "0.88",
+		                "1.0",
+		                "0.77"
 		            ],
 		            "correct" : 1,
 					"timer" : 120
 		        },
 		        {
-		            "question" : "What is commonly known as the \"Emerald City\" in the United States?",
+		            "question" : "If f(x)=x3 and x belongs to [-2,2] find absolute maxima.",
 		            "content" : [
-		                "Palos Verdes, CA",
-		                "Seattle, WA",
-		                "New York, NY",
-		                "Dallas, TX"
+		                "8",
+		                "6",
+		                "2",
+		                "4"
+		            ],
+		            "correct" : 0,
+					"timer" : 120
+		        },
+		        {
+		            "question" : "Consider the set A consisting of all prime numbers less than 10, and set B consisting of the first x odd natural numbers. If the number of possible relations from A to B is 4096, determine the number of elements in set B.",
+		            "content" : [
+		                "2",
+		                "3",
+		                "4",
+		                "5"
 		            ],
 		            "correct" : 1,
 					"timer" : 120
 		        },
 		        {
-		            "question" : "What is the national emblem of Canada?",
+		            "question" : "Find Coordinate of the point whose abscissa is 0 from the equation of the straight line whose intercepts on x axis and y axis are thrice and twice of those by the line 4x + 3y = 12.",
 		            "content" : [
-		                "Maple Leaf",
-		                "Brown Bear",
-		                "Maple Syrup",
-		                "Waffle"
-		            ],
-		            "correct" : 0,
-					"timer" : 120
-		        },
-		        {
-		            "question" : "What is the name of the largest freshwater lake in the world?",
-		            "content" : [
-		                "Lake Union",
-		                "Lake Superior",
-		                "Lake Largest",
-		                "Lake Goodwin"
-		            ],
-		            "correct" : 0,
-					"timer" : 120
-		        },
-				{
-				    "correct": 2,
-				    "content": [
-				        "Birds",
-				        "Cell formation",
-				        "Relation between organisms and their environment",
-				        "Tissues"
-				    ],
-				    "question": "Ecology deals with",
-					"timer" : 120
-				},
-				{
-				    "correct": 0,
-				    "content": [
-				        "Earth's gravitational pull",
-				        "Moon's gravitational pull",
-				        "Centripetal force due to the earth's rotation",
-				        "Pressure of the atmosphere"
-				    ],
-				    "question": "The escape velocity of a rocket fired from the earth towards the moon is the velocity required to overcome",
-					"timer" : 120
-				},
-				{
-				    "correct": 3,
-				    "content": [
-				        "was a great Italian painter, sculptor and architect",
-				        "got universal fame form his masterpiece \"Mona lisa\"",
-				        "drew models of organs such as the heart, lungs and womb",
-				        "All of the above"
-				    ],
-				    "question": "Leonardo da Vinci",
-					"timer" : 120
-				},
-				{
-				    "correct": 2,
-				    "content": [
-				        "2000",
-				        "2001",
-				        "2002",
-				        "2003"
-				    ],
-				    "question": "Hamid Karzai was chosen president of Afghanistan in",
-					"timer" : 120
-				},
-				{
-				    "correct": 0,
-				    "content": [
-				        "New York, USA",
-				        "Haque (Netherlands)",
-				        "Geneva",
-				        "Paris"
-				    ],
-				    "question": "The headquarters of UN are situated at",
-					"timer" : 120
-				},
-				{
-				    "correct": 2,
-				    "content": [
-				        "friction between the earth and the bus",
-				        "friction between the passengers and the earth",
-				        "inertia of the passengers",
-				        "inertia of the bus"
-				    ],
-				    "question": "When a moving bus stops suddenly, the passenger are pushed forward because of the",
-					"timer" : 120
-				},
-				{
-				    "correct": 1,
-				    "content": [
-				        "1908 at London",
-				        "1980 at Moscow",
-				        "1936 at Berlin",
-				        "1924 at Paris"
-				    ],
-				    "question": "When and where was hockey introduced for women in Olympics?",
-					"timer" : 120
-				},
-				{
-				    "correct": 0,
-				    "content": [
-				        "increase the alkalinity of the soil",
-				        "increase the acidity of the soil",
-				        "restore nitrates to the soil",
-				        "make the soil more porous"
-				    ],
-				    "question": "Lime is sometimes applied to soil in order to",
-					"timer" : 120
-				},
-				{
-				    "correct": 1,
-				    "content": [
-				        "discovered Greenland",
-				        "travelled through China, India and other parts of Asia",
-				        "travelled round the cape of Good Hope",
-				        "discovered Canada"
-				    ],
-				    "question": "Marco Polo",
-					"timer" : 120
-				},
-				{
-				    "correct": 1,
-				    "content": [
-				        "Guruji",
-				        "Man of Peace",
-				        "Punjab Kesari",
-				        "Mahamana"
-				    ],
-				    "question": "Lal Bahadur Shastri is also known as",
-					"timer" : 120
-				}
-		    ]
-		},
-		{
-		    "questions" : [
-		        {
-		            "question" : "Which of the following consumer goods is the Gerber Products Co. best known for?",
-		            "content" : [
-		                "Potato chips",
-		                "Fine wines",
-		                "Chewing gum",
-		                "Baby Food"
-		            ],
-		            "correct" : 3,
-					"timer" : 120
-		        },
-		        {
-		            "question" : "In which of these household appliances would you find a lint screen?",
-		            "content" : [
-		                "Dishwasher",
-		                "Microwave oven",
-		                "Clothes dryer",
-		                "Trash compactor"
-		            ],
-		            "correct" : 2,
-					"timer" : 120
-		        },
-		        {
-		            "question" : "What are the three primary colors?",
-		            "content" : [
-		                "Red, green, blue",
-		                "Magenta, pink, cyan",
-		                "Yellow, salmon, brown",
-		                "White, grey, black"
-		            ],
-		            "correct" : 0,
-					"timer" : 120
-		        },
-		        {
-		            "question" : "In aviation, what does UFO stand for?",
-		            "content" : [
-		                "Unified Flying Object",
-		                "Unitary Flinging Obsession",
-		                "United Flag Opposition",
-		                "Unidentified Flying Object"
-		            ],
-		            "correct" : 3,
-					"timer" : 120
-		        },
-		        {
-		            "question" : "In aviation, what does UFO stand for?",
-		            "content" : [
-		                "Unified Flying Object",
-		                "Unitary Flinging Obsession",
-		                "United Flag Opposition",
-		                "Unidentified Flying Object"
-		            ],
-		            "correct" : 3,
-					"timer" : 120
-		        },
-				{
-				    "correct": 0,
-				    "content": [
-				        "low melting point",
-				        "high resistance",
-				        "high melting point",
-				        "low specific heat"
-				    ],
-				    "question": "For safety, the fuse wire used in the mains for household supply of electricity must be made of metal having",
-					"timer" : 120
-				},
-				{
-				    "correct": 3,
-				    "content": [
-				        "slowing down of economic activity over a limited period",
-				        "period during which unemployment may rise and demand and output may fall, leading to slump in trade",
-				        "period that results from accumulation of unsold goods, owing to fall in demand",
-				        "All of the above"
-				    ],
-				    "question": "Recession is",
-					"timer" : 120
-				},
-				{
-				    "correct": 3,
-				    "content": [
-				        "Nagaland",
-				        "Arunachal Pradesh",
-				        "Assam",
-				        "All of the above"
-				    ],
-				    "question": "Guwahati High Court is the judicature of",
-					"timer" : 120
-				},
-				{
-				    "correct": 0,
-				    "content": [
-				        "Orissa",
-				        "Tamil nadu",
-				        "Andhra Pradesh",
-				        "Kerala"
-				    ],
-				    "question": "Heavy Water Project (Talcher) and Fertilizer plant (Paradeep) are famous industries of",
-					"timer" : 120
-				},
-				{
-				    "correct": 0,
-				    "content": [
-				        "the amount of moisture it can hold decreases",
-				        "its absolute humidity decreases",
-				        "its relative humidity remains constant",
-				        "its absolute humidity increases"
-				    ],
-				    "question": "When a given amount of air is cooled",
-					"timer" : 120
-				},
-				{
-				    "correct": 2,
-				    "content": [
-				        "1789 AD",
-				        "1798 AD",
-				        "1792 AD",
-				        "1729 AD"
-				    ],
-				    "question": "When did France became Republic?",
-					"timer" : 120
-				},
-				{
-				    "correct": 2,
-				    "content": [
-				        "Group A only",
-				        "Group B only",
-				        "Group A and O",
-				        "Group AB only"
-				    ],
-				    "question": "Of the blood groups A, B, AB and O, which one is transfused into a person whose blood group is A?",
-					"timer" : 120
-				},
-				{
-				    "correct": 0,
-				    "content": [
-				        "coins",
-				        "numbers",
-				        "stamps",
-				        "space"
-				    ],
-				    "question": "Numismatics is the study of",
-					"timer" : 120
-				},
-				{
-				    "correct": 2,
-				    "content": [
-				        "a classed unique society",
-				        "a united society",
-				        "a classed society",
-				        "None of the above"
-				    ],
-				    "question": "Karl Marx's ideology advocated",
-					"timer" : 120
-				},
-				{
-				    "correct": 0,
-				    "content": [
-				        "Maharashtra",
-				        "Rajasthan",
-				        "Madhya Pradesh",
-				        "Himachal Pradesh"
-				    ],
-				    "question": "Mahabaleshwar is located in",
-					"timer" : 120
-				}
-		    ]
-		},
-		{
-		    "questions" : [
-		        {
-		            "question" : "What kind of animal traditionally lives in a sty?",
-		            "content" : [
-		                "Cow",
-		                "Pig",
-		                "Fox",
-		                "Teenager"
-		            ],
-		            "correct" : 1,
-					"timer" : 120
-		        },
-		        {
-		            "question" : "The EPA urges people to produce less waste by engaging in efforts to reduce, reuse and what?",
-		            "content" : [
-		                "Recycle",
-		                "Rewrap",
-		                "Repossess",
-		                "Retire"
-		            ],
-		            "correct" : 0,
-					"timer" : 120
-		        },
-		        {
-		            "question" : "What is the second most common gas in the air?",
-		            "content" : [
-		                "Nitrogen",
-		                "Oxygen",
-		                "Water",
-		                "Helium"
-		            ],
-		            "correct" : 1,
-					"timer" : 120
-		        },
-		        {
-		            "question" : "Which month has only 28 days (unless it's a leap year)?",
-		            "content" : [
-		                "March",
-		                "September",
-		                "June",
-		                "Feburary"
+		                "10",
+		                "6",
+		                "12",
+		                "8"
 		            ],
 		            "correct" : 3,
 					"timer" : 120
@@ -725,122 +285,12 @@
 				{
 				    "correct": 1,
 				    "content": [
-				        "give",
-				        "prove",
-				        "both",
-				        "None of the above"
+				        "90 units, 6667 units",
+				        "100 units, 6767 units",
+				        "110 units, 6800 units",
+				        "95 units, 6700 units"
 				    ],
-				    "question": "Pythagoras was first to ____ the universal validity of geometrical theorem.",
-					"timer" : 120
-				},
-				{
-				    "correct": 0,
-				    "content": [
-				        "George Washington",
-				        "Bill Clinton",
-				        "George Bush",
-				        "None of the above"
-				    ],
-				    "question": "The American General who led the revolt against the British and declared American independence was",
-					"timer" : 120
-				},
-				{
-				    "correct": 0,
-				    "content": [
-				        "1986 at Athens",
-				        "1988 at Seoul",
-				        "1924 at St. Louis",
-				        "1908 at London"
-				    ],
-				    "question": "When and where was weightlifting introduced in Olympics?",
-					"timer" : 120
-				},
-				{
-				    "correct": 1,
-				    "content": [
-				        "Junagarh, Gujarat",
-				        "Diphu, Assam",
-				        "Kohima, Nagaland",
-				        "Gangtok, Sikkim"
-				    ],
-				    "question": "Garampani sanctuary is located at",
-					"timer" : 120
-				},
-				{
-				    "correct": 3,
-				    "content": [
-				        "states that no one was to be imprisoned without a writ or warrant stating the charge against him",
-				        "provided facilities to a prisoner to obtain either speedy trial or release in bail",
-				        "safeguarded the personal liberties of the people against arbitrary imprisonment by the king's orders",
-				        "All of the above"
-				    ],
-				    "question": "The Habeas Corpus Act of 1679",
-					"timer" : 120
-				},
-				{
-				    "correct": 1,
-				    "content": [
-				        "1960",
-				        "1961",
-				        "1962",
-				        "1963"
-				    ],
-				    "question": "When did Yuri Alekseyevich Gagaris of Russia, the first man to reach space, reach space?",
-					"timer" : 120
-				},
-		        {
-		            "question" : "What are the dimensions of A4 paper?",
-		            "content" : [
-		                "8.3\" x 11.7\"",
-		                "8.5\" x 11\"",
-		                "30cm x 50cm",
-		                "8.5\" x 14\""
-		            ],
-		            "correct" : 0,
-					"timer" : 120
-		        },
-				{
-				    "correct": 2,
-				    "content": [
-				        "energy",
-				        "speed",
-				        "distance",
-				        "intensity"
-				    ],
-				    "question": "Light Year is related to",
-					"timer" : 120
-				},
-				{
-				    "correct": 2,
-				    "content": [
-				        "a type of asset that is in cash in the current account of the commercial bank",
-				        "a type of asset that is in the form of a deposit in the current account of the commercial bank",
-				        "either of these",
-				        "None of the above"
-				    ],
-				    "question": "A liquid asset is",
-					"timer" : 120
-				},
-				{
-				    "correct": 1,
-				    "content": [
-				        "largest airport",
-				        "highest airport",
-				        "lowest airport",
-				        "busiest airport"
-				    ],
-				    "question": "Lhasa airport at Tibet is the World's",
-					"timer" : 120
-				},
-				{
-				    "correct": 2,
-				    "content" : [
-				        "Ethiopia",
-				        "Nigeria",
-				        "Zambia",
-				        "Chad"
-				    ],
-				    "question": "Which of these African countries is situated south of the equator?",
+				    "question": "A group of students formed a start-up company which sells a tech gadget. The cost function of the gadget is C(x) = 40x + 3000 and the revenue function of the gadget is: R(x) = 70x. How many units need to be sold for the profit to equal the loss? Also find the number of units they'll have to sell to get a profit of ₹2,00,000. (Take the nearest approximate value)",
 					"timer" : 120
 				}
 		    ]

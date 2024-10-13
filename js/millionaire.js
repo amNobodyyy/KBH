@@ -166,24 +166,6 @@ var MillionaireModel = function (data) {
 		}
 	}
 
-	// self.swapQuestion = function () {
-	// 	if(self.transitioning) return;
-	// 	$(event.target).fadeOut('slow');
-
-	// 	var currentLevel = self.level() - 1;
-	// 	var currentGameIndex = data.games.indexOf(self.questions);
-	// 	var nextGameIndex = (currentGameIndex + 1) % 5;
-	// 	var newQuestion = data.games[nextGameIndex].questions[currentLevel];
-
-	// 	self.questions[currentLevel] = newQuestion;
-
-	// 	// Update the observableArray to reflect the new question
-	//     self.questions.splice(currentLevel, 1, newQuestion);  // Replace the question at the current level
-
-	// 	self.startTimer();
-
-	// 	self.transitioning = false;
-	// }
 
 	self.leaveGame = function () {
 		// Get the current money won
@@ -231,9 +213,9 @@ var MillionaireModel = function (data) {
 	self.getLastCheckpoint = function () {
 		var currentLevel = self.level();
 
-		if (currentLevel >= 6) {
+		if (currentLevel > 6) {
 			return 320;
-		} else if (currentLevel >= 3) {
+		} else if (currentLevel > 3) {
 			return 40;
 		} else {
 			return 0;
@@ -274,7 +256,7 @@ var MillionaireModel = function (data) {
 			$("#" + elm).css('background', 'green').slideDown('slow', function () {
 				self.money($(".active").data('amt'));
 				setTimeout(function () {
-					if (self.level() + 1 > 8) {
+					if (self.level() + 1 > 5) {
 						var background = document.getElementById("background");
 						background.pause();
 
@@ -337,7 +319,7 @@ var MillionaireModel = function (data) {
 // the start game functionality to trigger a game model
 // being created
 $(document).ready(function () {
-	$.getJSON("questions.json", function (data) {
+	$.getJSON("questions2.json", function (data) {
 		for (var i = 1; i <= data.games.length; i++) {
 			$("#problem-set").append('<option value="' + i + '">' + i + '</option>');
 		}

@@ -35,16 +35,6 @@ Author: Aaron Nech
 			<div id="top">
 				<img src="img/logo-removebg-preview.jpg" id="logo" />
 				<ul id="levels">
-					<!-- <li data-bind="css: {active: level() == 15}" data-amt="1000000" data-lvl="15">$1,000,000</li>
-					<li data-bind="css: {active: level() == 14}" data-amt="500000" data-lvl="14">$500,000</li>
-					<li data-bind="css: {active: level() == 13}" data-amt="250000" data-lvl="13">$250,000</li>
-					<li data-bind="css: {active: level() == 12}" data-amt="125000" data-lvl="12">$125,000</li>
-					<li data-bind="css: {active: level() == 11}" data-amt="64000" data-lvl="11">$64,000</li>
-					<li data-bind="css: {active: level() == 10}" data-amt="32000" data-lvl="10">$32,000</li>
-					<li data-bind="css: {active: level() == 9}" data-amt="16000" data-lvl="9">$16,000</li> -->
-					<li data-bind="css: {active: level() == 8}" data-amt="1000" data-lvl="8">₹1,000</li>
-					<li data-bind="css: {active: level() == 7}" data-amt="640" data-lvl="7">₹640</li>
-					<li id="checkpoint" data-bind="css: {active: level() == 6}" data-amt="320" data-lvl="6">₹320</li>
 					<li data-bind="css: {active: level() == 5}" data-amt="160" data-lvl="5">₹160</li>
 					<li data-bind="css: {active: level() == 4}" data-amt="80" data-lvl="4">₹80</li>
 					<li id="checkpoint" data-bind="css: {active: level() == 3}" data-amt="40" data-lvl="3">₹40</li>
@@ -61,7 +51,7 @@ Author: Aaron Nech
 				<div id="exit" class="options-button" data-bind="click: leaveGame">
 					<p>Leave Game</p>
 				</div>				
-				<div id="money">$<span data-bind="text: formatMoney()"></span></div>
+				<div id="money">₹<span data-bind="text: formatMoney()"></span></div>
 			</div>
 			<div id="timer-container">
 				<div id="left-bar"></div>
@@ -72,20 +62,20 @@ Author: Aaron Nech
 			</div>
 			<div id="question-box">
 				<span class="big-text">Q:</span>
-				<span class="content" data-bind="text: getQuestionText()"></span>
+				<span class="content" data-bind="html: getQuestionText()"></span>
 			</div>
 			<div id="answer-box">
 				<div id="answer-one" class="answer" data-bind="click: function() { answerQuestion(0, $element.id) }">
-					<span class="big-text">A.</span><span data-bind="text: getAnswerText(0)"></span>
+					<span class="big-text">A.</span><span data-bind="html: getAnswerText(0)"></span>
 				</div>
 				<div id="answer-two" class="answer" data-bind="click: function() { answerQuestion(1, $element.id) }">
-					<span class="big-text">B.</span><span data-bind="text: getAnswerText(1)"></span>
+					<span class="big-text">B.</span><span data-bind="html: getAnswerText(1)"></span>
 				</div>
 				<div id="answer-three" class="answer" data-bind="click: function() { answerQuestion(2, $element.id) }">
-					<span class="big-text">C.</span><span data-bind="text: getAnswerText(2)"></span>
+					<span class="big-text">C.</span><span data-bind="html: getAnswerText(2)"></span>
 				</div>
 				<div id="answer-four" class="answer" data-bind="click: function() { answerQuestion(3, $element.id) }">
-					<span class="big-text">D.</span><span data-bind="text: getAnswerText(3)"></span>
+					<span class="big-text">D.</span><span data-bind="html: getAnswerText(3)"></span>
 				</div>
 			</div>
 		</div>
