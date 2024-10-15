@@ -48,7 +48,7 @@
 		            ],
 		            "correct" : 0,
 					"timer" : 420,
-					"hint" : "To correct the milk-to-water ratio, follow these steps:\n1.Calculate the current amount of water based on the incorrect ratio.\n2.Set up an equation using the desired ratio and the current amount of milk and water.\n3.Solve for the amount of water to add."
+					"hint" : "To correct the milk-to-water ratio, follow these steps:<br>1.Calculate the current amount of water based on the incorrect ratio.<br>2.Set up an equation using the desired ratio and the current amount of milk and water.<br>3.Solve for the amount of water to add."
 		        },
 		        {
 		            "question" : "At 12 o'clock, 1st Jan 2024, three clocks showed the correct time. One of them went on being infallible while the second lost one minute every 24 hours and the third gained one minute each day. On what date would all three clocks again show the correct 12 o'clock time for the first time?",
@@ -162,7 +162,7 @@
 		            ],
 		            "correct" : 1,
 					"timer" : 420,
-					"hint" : "New Price = Initial Price + (Initial Price x 10 / 100)\nNet Change = (Final Price - Initial Price) / Initial Price x 100"
+					"hint" : "New Price = Initial Price + (Initial Price x 10 / 100)<br>Net Change = (Final Price - Initial Price) / Initial Price x 100"
 		        },
 		        {
 		            "question" : "A person reaches a park 15 minutes late if he jogs at 6 km/h. If he jogs at 8 km/h instead, he arrives 10 minutes early. What is the distance he covers?",
@@ -300,7 +300,7 @@
 		            ],
 		            "correct" : 3,
 					"timer" : 420,
-					"hint" : "Step 1: Determine the intercepts of the line 4x + 3y = 12\nStep 2: Determine the new intercepts\nStep 3: Write the equation of the new line\nStep 4: Find the coordinate where the abscissa is 0"
+					"hint" : "Step 1: Determine the intercepts of the line 4x + 3y = 12<br>Step 2: Determine the new intercepts<br>Step 3: Write the equation of the new line<br>Step 4: Find the coordinate where the abscissa is 0"
 		        },
 				{
 				    "correct": 1,

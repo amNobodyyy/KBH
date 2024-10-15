@@ -95,22 +95,22 @@ var MillionaireModel = function (data) {
 		// Show the first answer after 1 second
 		setTimeout(function () {
 			$("#answer-one").fadeIn('slow');
-		}, 3000);
+		}, 5000);
 
 		// Show the second answer after 2 seconds
 		setTimeout(function () {
 			$("#answer-two").fadeIn('slow');
-		}, 4000);
+		}, 6000);
 
 		// Show the third answer after 3 seconds
 		setTimeout(function () {
 			$("#answer-three").fadeIn('slow');
-		}, 5000);
+		}, 7000);
 
 		// Show the fourth answer after 4 seconds
 		setTimeout(function () {
 			$("#answer-four").fadeIn('slow');
-		}, 6000);
+		}, 8000);
 	};
 
 	// Observable to store the formatted time (MM:SS)
